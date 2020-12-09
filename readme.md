@@ -8,9 +8,10 @@ This project contains below modules
 
 3. 	currency-conversion-service:
 	This is the microservice which will get the details from user like amount, from currency, to currency etc and call currency-exchange-service to get the exchange rate
+	This will have feign client to call exchange rate service
 	
 4. 	currency-exchange-service:
-	This will return the actual exchange rate 
+	This will return the actual exchange rate based on passed information
 	
 5. 	limits-service:
 	This is the dummy service which is created for the purpose of showing use of config server. 
