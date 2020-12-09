@@ -19,4 +19,5 @@ This project contains below modules
 	This is the gateway-server and as name suggests it is the API gateway for all other microservices in the application
 	
 
+Attached diagram for system architecture which we have developed in this project.
 
